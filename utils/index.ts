@@ -29,6 +29,7 @@ export const calculateCarRent = (city_mpg: number, year: number) => {
 	return rentalRatePerDay.toFixed(0);
 };
 
+// TODO: find free car image API and implement it
 export const generateCarImageUrl = (car: CarProps, angle?: string) => {
 	const url = new URL("https://cdn.imagin.studio/getimage");
 
